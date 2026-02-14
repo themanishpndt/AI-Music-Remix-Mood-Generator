@@ -5,7 +5,7 @@
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3.6-cyan?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-A powerful web application that allows students and music enthusiasts to create and remix music using AI - **no technical skills or musical expertise required!**
+A powerful web application that allows students and music enthusiasts to create and remix music using AI – **no technical skills or musical expertise required!**
 
 ---
 
@@ -32,24 +32,30 @@ A powerful web application that allows students and music enthusiasts to create 
   - Happy 😊 | Sad 😢 | Energetic ⚡ | Calm 😌 | Dark 🌑 | Uplifting 🌟
 
 ### 🎸 Genre Selection
-- **Electronic** 🎹 | **Ambient** 🌊 | **Rock** 🎸 | **Classical** 🎻 | **Jazz** 🎷
+- **Electronic** 🎹 – Modern synthesized sounds
+- **Ambient** 🌊 – Atmospheric and relaxing
+- **Rock** 🎸 – Energetic guitar-driven style
+- **Classical** 🎻 – Elegant orchestral tones
+- **Jazz** 🎷 – Smooth and sophisticated
 
 ### 🎚️ Customization Controls
-- **Duration**: 5-30 seconds
-- **Tempo**: 60-180 BPM (Beats Per Minute)
-- **Tempo Change**: 0.5x to 2.0x for remixing
+- **Duration**: 5–30 seconds
+- **Tempo**: 60–180 BPM (Beats Per Minute)
+- **Tempo Change**: 0.5× to 2.0× for remixing
 
 ### 🔄 AI-Powered Audio Remixing
 - **🤖 Intelligent Mood Transformation**: AI-driven mood conversion
 - **🎹 Pitch Shifting**: Change pitch ±12 semitones
 - **🎼 Harmony Layers**: Add third, fifth, or octave harmonies
 - **🔍 Audio Analysis**: Get AI suggestions for creative transformations
-- **⚡ Tempo Control**: 0.5x to 2.0x speed adjustment
+- **⚡ Tempo Control**: 0.5× to 2.0× speed adjustment
 - **🎨 Genre Effects**: Apply genre-specific audio processing
 - Upload any audio file (WAV, MP3, etc.)
 
 ### 🎧 Professional Audio Player
-- Play/Pause, seek, volume, mute
+- Play/Pause controls
+- Progress bar with seek functionality
+- Volume control with mute option
 - Download generated/remixed audio
 - Visual waveform animation
 
@@ -59,6 +65,7 @@ A powerful web application that allows students and music enthusiasts to create 
 
 The application follows a modern client-server architecture with a React frontend and Flask backend.
 
+```mermaid
 graph TB
     subgraph "Frontend (Browser)"
         A[React App] --> B[MusicGenerator.jsx]
@@ -95,6 +102,7 @@ graph TB
     style A fill:#61DAFB,stroke:#333
     style F fill:#00A98B,stroke:#333
     style P fill:#FF6F61,stroke:#333
+```
 
 ### Data Flow Diagram
 
@@ -253,8 +261,8 @@ Frontend runs at `http://localhost:5173` (opens automatically)
 ### Generate Music
 1. **Select a Mood** (happy, sad, energetic, etc.)
 2. **Select a Genre** (electronic, ambient, rock, etc.)
-3. **Adjust Duration** (5-30 seconds)
-4. **Set Tempo** (60-180 BPM)
+3. **Adjust Duration** (5–30 seconds)
+4. **Set Tempo** (60–180 BPM)
 5. Click **"Generate Music"**
 6. Play and download your creation
 
@@ -263,7 +271,7 @@ Frontend runs at `http://localhost:5173` (opens automatically)
 2. **Analyze (Optional)**: Click "Analyze Audio" for AI suggestions
 3. **AI Mood Transform**: Enable, select source/target mood
 4. **Adjust Creative Controls**:
-   - Tempo (0.5x–2.0x)
+   - Tempo (0.5×–2.0×)
    - Pitch Shift (±12 semitones)
    - Harmony (third/fifth/octave)
 5. **Select Genre** for specific effects
