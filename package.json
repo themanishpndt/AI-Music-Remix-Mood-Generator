@@ -1,0 +1,31 @@
+{
+  "type": "module",
+  "name": "ai-music-remix-generator",
+  "version": "1.0.0",
+  "description": "AI-powered music remix and mood generator",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "lucide-react": "^0.294.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "wavesurfer.js": "^7.4.4"
+  },
+  "devDependencies": {
+    "@jridgewell/gen-mapping": "^0.3.13",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^5.1.4",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "postcss-selector-parser": "^7.1.1",
+    "rollup": "^4.57.1",
+    "sucrase": "^3.35.1",
+    "tailwindcss": "^3.3.6",
+    "vite": "^5.4.21"
+  }
+}
