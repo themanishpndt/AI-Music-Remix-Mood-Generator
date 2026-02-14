@@ -76,10 +76,10 @@ graph TB
     
     subgraph "Backend (Flask Server)"
         F[Flask App] --> G[API Routes]
-        G --> H[/api/generate]
-        G --> I[/api/remix]
-        G --> J[/api/analyze]
-        G --> K[/api/download/*]
+        G --> H["/api/generate"]
+        G --> I["/api/remix"]
+        G --> J["/api/analyze"]
+        G --> K["/api/download/*"]
         
         H --> L[Music Generator]
         I --> M[Audio Remixer]
