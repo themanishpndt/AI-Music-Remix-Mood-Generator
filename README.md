@@ -59,7 +59,6 @@ A powerful web application that allows students and music enthusiasts to create 
 
 The application follows a modern client-server architecture with a React frontend and Flask backend.
 
-```mermaid
 graph TB
     subgraph "Frontend (Browser)"
         A[React App] --> B[MusicGenerator.jsx]
@@ -96,7 +95,6 @@ graph TB
     style A fill:#61DAFB,stroke:#333
     style F fill:#00A98B,stroke:#333
     style P fill:#FF6F61,stroke:#333
-```
 
 ### Data Flow Diagram
 
